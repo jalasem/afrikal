@@ -1,0 +1,63 @@
+nav a.brand-logo,
+nav ul li a {
+    color: purple;
+}
+
+nav .container {
+    width: 95%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav#searchNav {
+    margin-top: 64px;
+}
+
+i.searchClose {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: #9c27b0;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .3s color;
+}
+
+.input-field input[type="search"] {
+    padding-left: 4rem;
+    width: calc(100% - 8rem);
+    padding-right: 4rem;
+}
+
+section#banner {
+    width: 100%;
+    /*height: calc( 100vh - 7rem );*/
+    background: url(../images/new.png) no-repeat fixed top;
+    background-size: 100%;
+}
+
+#banner h4.slogan {
+    margin-bottom: 2rem;
+}
+
+div.overlay {
+    background: rgba(0, 0, 0, 0.38);
+    width: 100%;
+    height: inherit;
+    padding: 5rem 0 0;
+}
+
+.catBox {
+    padding: 3.5rem 0;
+    transition: all ease-in-out .5s;
+}
+
+.catBox:hover {
+    border: 1px solid white;
+}
+
+.catIcon {
+    font-size: 4.5rem;
+}
