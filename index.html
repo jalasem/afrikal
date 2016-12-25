@@ -30,7 +30,7 @@
             <div class="nav-wrapper">
                 <form onsubmit="alert('search not yet available');">
                     <div class="input-field">
-                        <input id="search" type="search" required>
+                        <input id="search" type="search" class="purple-text" required>
                         <label for="search"><i class="icon ion-ios-search purple-text"></i></label>
                         <i class="icon ion-ios-close-outline searchClose" id="searchClose"></i>
                     </div>
@@ -47,11 +47,13 @@
             <p class="flow-text">Search. Pick. Done. </p>
             <br>
             <div class="row">
-                <form class="col l4 offset-l3">
-                    <div class="row">
-                        <div class="input-field col s12 white">
-                            <input id="password" type="password" class="validate">
-                            <label for="password">Password</label>
+                <form class="col l4 offset-l4">
+                    <div class="row center">
+                        <div class="input-field col l8">
+                            <input id="search2" type="search" placeholder="What service do you want? ">
+                        </div>
+                        <div class="input-field col l4">
+                            <input type="submit" class="btn purple waves-effect">
                         </div>
                     </div>
                 </form>

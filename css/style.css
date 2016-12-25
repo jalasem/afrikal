@@ -30,10 +30,11 @@ i.searchClose {
     transition: .3s color;
 }
 
-.input-field input[type="search"] {
+nav .input-field input[type="search"] {
     padding-left: 4rem;
     width: calc(100% - 8rem);
     padding-right: 4rem;
+    font-size: 1.5rem;
 }
 
 section#banner {
