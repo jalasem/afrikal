@@ -20,23 +20,59 @@
                 </a>
                 <ul class="right">
                     <li><a href="#" class="" id="openSearch"><i class="right ion ion-ios-search"></i></a></li>
-                    <li><a href="#" class="hide-on-small-only">Help &amp; Support</a></li>
-                    <li><a href="#" class="btn waves-effect waves-light teal hide-on-small-only">Get job done</a></li>
+                    <li><a href="#" class="hide-on-small-only waves-effect">Help &amp; Support</a></li>
+                    <li><a href="#" class="waves-effect">Login</a></li>
+                    <li><a href="#" class="btn waves-effect waves-light brown darken-4 hide-on-small-only">Get job done</a></li>
                     <li><a href="#" class="btn waves-effect waves-light purple hide-on-small-only">Make money</a></li>
                 </ul>
             </div>
         </nav>
-        <nav class="white hide" id="searchNav">
-            <div class="nav-wrapper">
-                <form onsubmit="alert('search not yet available');">
-                    <div class="input-field">
-                        <input id="search" type="search" class="purple-text" required>
-                        <label for="search"><i class="icon ion-ios-search purple-text"></i></label>
-                        <i class="icon ion-ios-close-outline searchClose" id="searchClose"></i>
-                    </div>
+        <div class="hide" id="searchField">
+            <div class="header">
+                <!--<p class="flow-text white-text left">Search</p>-->
+                <a href="#" class="btn-floating btn-large waves-effect waves-light transparent right" id="searchClose">
+                    <i class="icon ion-close-round"></i>
+                </a>
+            </div>
+            <div class="inner">
+
+                <form id="searchBox" onsubmit="alert('search not yet available'); return false;">
+                    <input type="search" id="searcharea" placeholder="Search services" autofocus autocomplete="false">
                 </form>
             </div>
-        </nav>
+            <div class="row">
+                <ul class="collection col l12">
+                    <li class="collection-item avatar">
+                        <img src="images/yuna.jpg" alt="" class="circle">
+                        <span class="title">Title</span>
+                        <p>First Line <br> Second Line
+                        </p>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle">folder</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br> Second Line
+                        </p>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle green">insert_chart</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br> Second Line
+                        </p>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle red">play_arrow</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br> Second Line
+                        </p>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <section id="banner" class="center-align">
         <div class="overlay white-text">
@@ -45,47 +81,7 @@
                 Get premium services at affordable prices
             </h5>
             <p class="flow-text">Search. Pick. Done. </p>
-            <div class="row">
-                <form class="col l4 offset-l4">
-                    <div class="row center">
-                        <div class="input-field col l8">
-                            <input id="search2" type="search" placeholder="What service do you want? ">
-                        </div>
-                        <div class="input-field col l4">
-                            <input type="submit" class="btn purple waves-effect">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col l3 purple catBox">
-                    <br>
-                    <i class="icon ion-university catIcon"></i>
-                    <p class="flow-text">Education</p>
-                    <br>
-                </div>
-                <div class="col l3 pink catBox">
-                    <br>
-                    <i class="fa fa-shopping-bag catIcon" style="margin: 1.1rem 0;"></i>
-                    <!--Clothing, Bags and Shoes-->
-                    <p class="flow-text">Education</p>
-                    <br>
-                </div>
-                <div class="col l3 blue catBox">
-                    <br>
-                    <i class="icon ion-android-bicycle catIcon"></i>
-                    <p class="flow-text">Hobby, Sport & Kits</p>
-                    <br>
-                </div>
-                <div class="col l3 green catBox">
-                    <br>
-                    <i class="icon ion-outlet catIcon"></i>
-                    <p class="flow-text">Electronics</p>
-                    <br>
-                </div>
-            </div>
+            <button class="btn-large teal waves-effect waves-light" id="findServices">Find Services</button>
         </div>
     </section>
 

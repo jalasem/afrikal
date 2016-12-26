@@ -1,8 +1,15 @@
-$(document).ready(function(){
-    $('#openSearch').click(function(){
-        $('#searchNav').toggleClass('hide');
+$(document).ready(function() {
+    $('#openSearch').click(function() {
+        $('#searchField').toggleClass('hide');
     });
-    $('#searchClose').click(function(){
-        $('#searchNav').addClass('hide');
+    $('#searchClose').click(function() {
+        $('#searchField').addClass('hide');
     });
+
+    $('#findServices').click(function() {
+        $('#searchField').toggleClass('hide');
+    });
+    // $('#searchClose').click(function() {
+    //     $('#searchField').addClass('hide');
+    // });
 });
