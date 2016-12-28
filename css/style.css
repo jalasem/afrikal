@@ -1,3 +1,10 @@
+.row .col.eq5 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
 nav a.brand-logo,
 nav ul li a {
     color: #3e2723;
@@ -24,6 +31,24 @@ section#banner {
 
 #banner h4.slogan {
     margin-bottom: 2rem;
+}
+
+#banner .desc1 h4 {
+    font-size: 1.3rem;
+    line-height: 100%;
+}
+
+#banner .desc1 p {
+    font-size: 1rem;
+    max-width: 20rem;
+    line-height: 100%;
+    margin-top: -0.5rem;
+}
+
+#banner .desc1 h1 {
+    line-height: 100%;
+    margin: 0.8rem -1rem 0 0;
+    font-size: 4rem;
 }
 
 div.overlay {
@@ -159,3 +184,4 @@ section#categories header h4 {
     font-weight: 400;
     font-size: 1rem;
 }
+

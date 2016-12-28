@@ -1,0 +1,10 @@
+{
+  "appId": "afrikal",
+  "apiKey": "fccaad6653c835600a04bcaeef6400e9efa0fe313a63181d9eddf0e28c86cccb",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
