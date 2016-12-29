@@ -1,8 +1,10 @@
-.row .col.eq5 {
-    width: 20%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+@media screen and (min-width:992px) {
+    .row .col.eq5 {
+        width: 20%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
 }
 
 nav a.brand-logo,
@@ -51,7 +53,7 @@ section#banner {
     font-size: 4rem;
 }
 
-div.overlay {
+#banner div.overlay {
     background: rgba(0, 0, 0, 0.53);
     width: 100%;
     height: inherit;
@@ -185,3 +187,45 @@ section#categories header h4 {
     font-size: 1rem;
 }
 
+.frik .card-content .card-title i.icon {
+    font-size: 1.5rem;
+    margin-top: -3.6rem;
+}
+
+.frik .card .card-content .card-title {
+    font-size: 0.9rem;
+    font-family: 'segoe ui';
+}
+
+.frik .card .card-reveal .card-title i.icon {
+    font-size: 2rem;
+    position: absolute;
+    right: 3px;
+    top: 0px;
+}
+
+.frik .card .card-reveal .card-title {
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.frik .card .card-reveal p {
+    margin-top: 0.3rem;
+}
+
+.frik .card .card-action a.like i.icon {
+    margin-top: -0.8rem;
+    font-size: 2rem;
+}
+
+.frik .card .card-action {
+    padding: 10px 0.7rem 0;
+}
+
+.frik .card .card-content {
+    padding: 1rem 1rem 0.6rem;
+    border-radius: 0 0 2px 2px;
+}
